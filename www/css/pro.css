@@ -1,0 +1,140 @@
+.pro-content{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    padding-top: 12px;
+}
+
+.rosavi-logo{
+    width: 76px;
+    height: 76px;
+    margin-left: 0;
+}
+
+.pro-topo h2{
+    color: #fcba03;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    transform: translate(-50%);
+    background: none;
+}
+
+.pro-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #ffff;
+}
+
+.um{
+    color: rgba(122, 122, 122, 0.658);
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.dois{
+    color: rgb(0, 0, 0);
+    margin-bottom: -15px;
+}
+
+.obs{
+    font-size: 12.5px;
+    font-weight: 800;
+}
+
+.pro-block{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.pro-block h2{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.pro-topo i{
+    font-size: 30px;
+    margin-left: -30px;
+    color: #cf9800;
+}
+
+.plan-info{
+    text-align: center;
+    font-weight: 300;
+    line-height: 15px;
+    background: none;
+    color: white;
+}
+
+.plano{
+    width: 80%;
+    height: 220px;
+    background: #c29e00;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding-top: 21px;
+}
+
+.plano h2{
+    background: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.plano button{
+    width: 30vw;
+    height: 45px;
+    border: none;
+    background: #ffffff;
+    border: 2px solid #ffbb00;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #d49c00;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+
+.planos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}

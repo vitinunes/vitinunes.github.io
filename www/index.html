@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#fff">
+    <!-- Your app title -->
+    <title>Rosavi</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/link3.css">
+    <link rel="stylesheet" href="css/link2.css">
+    <link rel="stylesheet" href="css/msg.css">
+    <link rel="stylesheet" href="css/enem.css">
+    <link rel="stylesheet" href="css/pro.css">
+    <link rel="stylesheet" href="css/search.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+                        <!-- TAB BAR-->
+                        <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                            <div class="toolbar-inner display-flex">
+                                <a href="/index/" class="tab-link link active">
+                                    <i class="mdi mdi-home"></i>
+                                </a>
+                                <a href="/search/" class="tab-link link">
+                                    <i class="mdi mdi-bus" style="font-size: 28px;"></i>
+                                </a>
+                                <a href="/link2/" class="tab-link link">
+                                    <i class="mdi mdi-account-school"></i>
+                                </a>
+
+                                <a href="/pro/" class="tab-link link">
+                                    <i class="mdi mdi-crown"></i>
+                                </a>
+            
+                                </div>
+                            </div>
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page color-theme-blue">
+
+
+                <!--NAV TOPO-->
+                
+
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="top-nav">
+                        <img src="img/rasavi.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="block">
+                        <a href="/pro/" class="btn-pro">SEJA PREMIUM! <span class="mdi mdi-crown"></span></a>
+                          <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/image1.svg" alt="Slide 1">
+        <p>Uma variedade de ferramentas personalizadas para otimizar seus estudos</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/image2.svg" alt="Slide 2">
+        <p>O Rasavi permite que você acompanhe o seu desempenho e defina metas.</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/image3.svg" alt="Slide 3">
+        <p>Aqui é o seu ponto de partida para uma jornada escolar e profissional de sucesso. </p>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+<div class="modo-enem">
+<h2>RASAVI VESTIBULAR</h2>
+            <a href="/enem/" class="enem">ENEM2024</a>
+</div>
+
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

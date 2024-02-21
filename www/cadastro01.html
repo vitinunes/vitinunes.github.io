@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#fff">
+    <!-- Your app title -->
+    <title>Bem Vindo ao Rasavi</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/cadastro02.css">
+    <link rel="stylesheet" href="css/cadastro03.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="cadastro" class="page">
+
+               <!--NAV TOPO-->
+
+                <!-- Scrollable page content -->
+                <div class="page-inicial">
+                    <div class="inicial-screen">
+                        <div class="inicial-txt">
+                            <h1>BEM-VINDO AO <h1>
+                            <h1>RASAVI</h1>
+                            <p>Cadastre-se gratuitamente ou faça login</p>
+                        </div>
+                        
+                        <div class="a-cad">
+                            <a href="/cadastro02/" class="inicial-button">Continuar com e-mail ou celular</a>
+                        </div>
+                    
+                        <p class="ou">ou</p>
+                        <div class="entrar-com">
+                            <a href="#"><i class="mdi mdi-google"></i></a>
+                            <a href="#"><i class="mdi mdi-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

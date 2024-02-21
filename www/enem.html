@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Rosavi</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/link3.css">
+    <link rel="stylesheet" href="css/link2.css">
+    <link rel="stylesheet" href="css/enem.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+                        <!-- TAB BAR-->
+                        <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                            <div class="toolbar-inner display-flex">
+                                <a href="/index/" class="tab-link link active">
+                                    <i class="mdi mdi-home"></i>
+                                </a>
+                                <a href="/link2/" class="tab-link link">
+                                    <i class="mdi mdi-school"></i>
+                                </a>
+                                <a href="/link3/" class="tab-link link">
+                                    <i class="mdi mdi-tie"></i>
+                                </a>
+            
+                                </div>
+                            </div>
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page color-theme-blue">
+
+
+                <!--NAV TOPO-->
+                
+                <div class="enem-topo">
+                    <a href="/index/"><i class="mdi mdi-arrow-left"></i></a>
+                    <img src="img/logomini.jpg" alt="">
+                    <p class="vestibular">enem</p>
+                </div>
+
+
+                <!-- Scrollable page content -->
+                <div class="enem-content">
+                    <a href="/pro/" class="enem-note">
+                        <h2>Você descobriu um recurso premium</h2>
+                        <i class="mdi mdi-crown"></i>
+                    </a>
+                    
+                    <a class="enem-rank">Veja o ranking<i class='mdi mdi-chevron-right'></i></a>
+                    
+                    
+                    <div class="enem-sobre">
+                        <h2>ENEM<span class="span-ano">2024</span></h2>
+                        <p>.O Enem é conhecido atualmente como o maior exame educacional do país e é a porta de entrada na Universidade para milhares de estudantes. O Enem 2024 deve ser realizado no mesmo formato que as edições anteriores, após definição do Ministério da Educação (MEC). 
+                        <br><br>Aplicada anualmente para mais de 5 milhões de estudantes do ensino médio. A prova do Enem é realizada em dois domingos consecutivos e se divide em quatro áreas: Linguagens e Códigos; Ciências Humanas; Ciências da Natureza; Matemática. O exame também cobra uma redação.
+                        <br><br> <span class="mini-title">Como surgiu o Enem?</span><br>
+                        <br>O Enem foi criado pelo Ministério da Educação (MEC), em 1998, com o objetivo de avaliar o domínio de competências dos estudantes concluintes do ensino médio, ao fim da escolaridade básica. 
+                        <br><br>
+                        É por meio do Enem que estudantes podem participar de programas criados pelo governo federal para acesso ao ensino superior, como:
+                        <br>
+                        - Programa Universidade para Todos <span class="sigla">(ProUni)</span>, que oferta bolsas de estudo parciais ou integrais em instituições particulares;
+                        <br>
+                        - Fundo de Financiamento Estudantil <span class="sigla">(Fies)</span>, que concede financiamento sem juros ou com juros baixo em faculdades particulares;
+                        <br>
+                        - Sistema de Seleção Unificada <span class="sigla">(SiSU)</span>, que oferta vagas em instituições públicas de ensino superior.
+                    </p>
+                    </div>
+
+                    <a href="#" class="link-notas">Notas Requisitadas <i class="mdi mdi-chevron-right"></i></a>
+
+                    <div class="r-enem">
+                        <h2 class="intro-r-enem">ENEM Plan</h2>
+                        <p class="p-r-enem">Considerando a possibilidade de fornecer uma ferramenta para auxiliá-lo a alcançar sua melhor pontuação, o Rosavi desenvolve um plano de estudos para o ENEM. </p>
+                        <a href="#" class="r-enem-btn">Iniciar</a>
+                    </div>
+                </div>
+
+            </div>
+
+           
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

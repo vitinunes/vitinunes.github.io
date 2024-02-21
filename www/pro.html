@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#fff">
+    <!-- Your app title -->
+    <title>Rosavi</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/link3.css">
+    <link rel="stylesheet" href="css/link2.css">
+    <link rel="stylesheet" href="css/pro.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+                        <!-- TAB BAR-->
+                        <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                            <div class="toolbar-inner display-flex">
+                                <a href="/index/" class="tab-link link active">
+                                    <i class="mdi mdi-home"></i>
+                                </a>
+                                <a href="/link2/" class="tab-link link">
+                                    <i class="mdi mdi-school"></i>
+                                </a>
+                                <a href="/link3/" class="tab-link link">
+                                    <i class="mdi mdi-tie"></i>
+                                </a>
+            
+                                </div>
+                            </div>
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page color-theme-blue">
+
+
+                <!--NAV TOPO-->
+                <div class="pro-topo">
+                    <img src="img/logomini.jpg" class="rosavi-logo" alt="">
+                    <i class="mdi mdi-crown"></i>
+                </div>
+
+
+                <!-- Scrollable page content -->
+                <div class="pro-content">
+                    <div class="pro-block">
+                        <h2>DESTAQUE-SE COM ROSAVI PREMIUM</h2>
+                        <div class="pro-conteudo">
+                            <p class="um">Turbine o desempenho com ferramentas que vão otimizar seus estudos.</p>
+                            <p class="dois">Experimente os nossos recursos premium de graça*</p>
+                            <p class="obs">*Para usuários elegíveis, depois R$16,99/mês*</p>
+                        </div>
+                        <div class="planos">
+                            <a href="#" class="plano">
+                                <h2>Plano Mensal</h2>
+                                <p class="plan-info">Tenha acesso a todos os recursos <br> premium por 30 dias.</p>
+                                <button>R$24,99</button>
+                            </a>
+                            <a href="#" class="plano">
+                                <h2>Plano 3 Meses</h2>
+                                <p class="plan-info">Tenha acesso a todos os recursos <br> premium por 90 dias.</p>
+                                <button>R$65,99</button>
+                            </a>
+                            <a href="#" class="plano">
+                                <h2>Plano 6 Meses</h2>
+                                <p class="plan-info">Tenha acesso a todos os recursos <br> premium por 180 dias</p>
+                                <button>R$125,99</button>
+                            </a>
+                            <a href="#" class="plano">
+                                <h2>Plano Anual</h2>
+                                <p class="plan-info">Tenha acesso a todos os recursos <br> premium por 365 dias.</p>
+                                <button>R$239,99</button>
+                            </a>
+                            
+                            <a href="#" class="plano">
+                                <h2>Plano ENEM</h2>
+                                <p class="plan-info">Tenha acesso aos recursos <br> de estudos para a prova do ENEM <br> ou para outro vestibular <br> por 30 dias.</p>
+                                <button>R$16,99</button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                                
+            </div>
+        </div>
+    </div>
+
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

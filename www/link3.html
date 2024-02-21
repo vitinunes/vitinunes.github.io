@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/link3.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="link3" class="page">
+
+               <!--TAB BAR-->
+
+                <!-- Scrollable page content -->
+                <div class="buttons-top">
+                    <a href="/link2/"><i class="mdi mdi-arrow-left"></i></a>
+                    <h1>Perfil</h1>
+                </div>
+                <div class="perfil-content">
+                       
+                    <div class="prod-detail">
+                        <img src="img/default.png">
+                    </div>
+
+                <div class="content">
+                    <div class="prod-content">
+                        <button class="butao">
+                                <a href="/conta/">
+                                    <div class="dir">
+                                        <div class="icons">
+                                            <i id="editar-conta" class="mdi mdi-account-edit-outline"></i>
+                                        </div>
+
+                                        <div class="b-content">
+                                            <h2>Conta</h2>
+                                            <p>Dados Pessoais, Privacidade</p>    
+                                        </div>
+                                    </div>
+
+                                    <div class="esq">
+                                        <i class="mdi mdi-chevron-right"></i></a>
+                                    </div>
+                                </a>
+                            </button>
+
+                            <button class="butao">
+                                <a href="/analise/">
+                                    <div class="dir">
+                                        <div class="icons">
+                                            <i class="mdi mdi-google-analytics"></i>
+                                        </div>
+
+                                        <div class="b-content">
+                                            <h2>Análise</h2>
+                                            <p>Estatísticas, Gráficos </p>    
+                                        </div>
+                                    </div>
+
+                                    <div class="esq">
+                                        <i class="mdi mdi-chevron-right"></i></a>
+                                    </div>
+                                </a>
+                            </button>
+
+                            <button class="butao">
+                                <a href="#">
+                                    <div class="dir">
+                                        <div class="icons">
+                                            <i class="mdi mdi-message-alert-outline"></i>
+                                        </div>
+
+                                        <div class="b-content">
+                                            <h2>Relatório</h2>
+                                            <p>Feedback Profissional</p>    
+                                        </div>
+                                    </div>
+                                    <div class="esq">
+                                        <i class="mdi mdi-chevron-right"></i></a>
+                                    </div>
+                                </a>
+                            </button>
+                            
+                            <button class="butao">
+                                <a href="/analise/">
+                                    <div class="dir">
+                                        <div class="icons">
+                                            <i class="mdi mdi-bell-badge-outline"></i>
+                                        </div>
+
+                                        <div class="b-content">
+                                            <h2>Notificações</h2>
+                                            <p>Permissões, Sons </p>    
+                                        </div>
+                                    </div>
+
+                                    <div class="esq">
+                                        <i class="mdi mdi-chevron-right"></i></a>
+                                    </div>
+                                </a>
+                            </button>
+                            <button class="butao">
+                                <a href="/analise/">
+                                    <div class="dir">
+                                        <div class="icons">
+                                            <i class="mdi mdi-crown-outline"></i>
+                                        </div>
+
+                                        <div class="b-content">
+                                            <h2>Assinatura</h2>
+                                            <p>Gratuito </p>    
+                                        </div>
+                                    </div>
+
+                                    <div class="esq">
+                                        <i class="mdi mdi-chevron-right"></i></a>
+                                    </div>
+                                </a>
+                            </button>
+                            <button class="butao">
+                                <a href="/analise/">
+                                    <div class="dir">
+                                        <div class="icons">
+                                            <i class="mdi mdi-cog"></i>
+                                        </div>
+
+                                        <div class="b-content">
+                                            <h2>Ajustes</h2>
+                                            <p>Acessibilidade, Tema </p>    
+                                        </div>
+                                    </div>
+
+                                    <div class="esq">
+                                        <i class="mdi mdi-chevron-right"></i></a>
+                                    </div>
+                                </a>
+                            </button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

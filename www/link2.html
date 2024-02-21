@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/link2.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="link2" class="page">
+
+               <!--NAV TOPO-->
+
+                <!-- Scrollable page content -->
+                <div class="pg-content">
+                    <div class="bloco">
+                        <div class="butao-top">
+                            <a href="/index/">  <i class="mdi mdi-arrow-left"></i></a>
+                            <a href="/link3/" class="btn-account"><img src="img/default.png" alt=""></a>
+                        </div>                           
+                    </div>
+
+                    <div class="estudos">
+                        <a href="#" class="estudos-rank">
+                            <p class="p-um-rank">#01</p>
+                            <p class="p-dois-rank">Pontuação: 1000</p>
+                            <P class="p-tres-rank">Parabéns você está no Top1</P>
+                        </a>
+
+                        <button class="butao-link">
+                            <a href="#" class="pomo-btn">
+                                <i class="mdi mdi-timer-outline"></i>
+                                <h2>Pomodoro</h2>
+                            </a>
+                        </button>
+
+                        <div class="estudos-content">
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

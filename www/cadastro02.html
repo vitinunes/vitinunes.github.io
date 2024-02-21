@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Bem Vindo ao Rasavi</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/cadastro02.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="emailscreen" class="page">
+
+               <!--NAV TOPO-->
+
+                <!-- Scrollable page content -->
+                <div class="page-email">
+                    <div class="email-screen">
+                        <a href="/cadastro/" class="email-back"><i class="mdi mdi-chevron-left"></i></a>
+                        <div class="email-screen-txt">
+                            <h1>Seu e-mail ou número<h1>
+                            <h1>de telefone<h1>
+                        </div>                 
+                        <input type="email" id="email-input" placeholder="E-mail ou número de telefone" required>          
+                        <button type="submit" id="btn-continuar" class="btn-continuar">
+                            <a href="/cadastro03/">Continuar</a>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+.pg-content{
+    width: 100%;
+    height: 100%;
+}
+
+.bloco{
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.butao-top{
+    background: none;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+.butao-top i{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a1a1a;
+    font-size: 50px;
+}
+
+.btn-account{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.btn-account img{
+    width: 42px;
+    height: 42px;
+}
+
+.estudos{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.butao-link {
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    height: 68px;
+    margin-top: 20px;
+    background: #fcba03;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.estudos-rank{
+    width: 90vw;
+    height: 80px;
+    background: #e7e6e6;
+    color: #5e5e5e;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-um-rank{
+    background: none;
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: -20px;
+}
+
+.p-dois-rank{
+    background: none;
+    font-size: 14px;
+    margin-bottom: -17px;
+}
+
+.p-tres-rank{
+    background: none;
+    font-size: 12px;
+}
+
+.pomo-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3vw;
+    margin-right: 4vw;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    background: #fcba03;
+}
+
+.pomo-btn h2{
+    font-size: 22px;
+    margin-left: 4vw;
+    background: none;
+}
+
+.pomo-btn i{
+    font-size: 30px;
+}
